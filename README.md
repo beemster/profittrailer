@@ -2,8 +2,10 @@ Profit Trailer is a bot to trade on Crypto currency exchanges.
 
 It requires a paid license and it will trade on Binance, Bittrex and Poloniex.
 
-Main site: https://profittrailer.com/
-Wiki: https://wiki.profittrailer.io/
+* Main site: https://profittrailer.com/
+* Wiki: https://wiki.profittrailer.io/
+
+
 
 # Invocation
 
