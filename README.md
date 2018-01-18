@@ -20,7 +20,7 @@ If you don't have any properties files yet, they will be created and the contain
 Edit as needed and run it again:
 
 ```
-docker run -d -v $PWD/ProfitTrailer:/opt/ProfitTrailer bram/profittrailer
+docker run -d -v $PWD/ProfitTrailer:/opt/ProfitTrailer -p 127.0.0.1:8081:8081 bram/profittrailer
 ```
 
 This time it should stay running and you can access it via http://127.0.0.1:8081
