@@ -6,10 +6,10 @@ RUN apt-get update && apt-get upgrade -y --no-install-recommends
 RUN apt-get install -y --no-install-recommends curl unzip default-jdk
 
 
-ENV PT_DOWNLOAD_URL=https://github.com/taniman/profit-trailer/releases/download/v1.2.6.12/ProfitTrailer.zip
+ENV PT_DOWNLOAD_URL=https://github.com/taniman/profit-trailer/releases/download/v1.2.6.14/ProfitTrailer.zip
 RUN cd /opt && curl -L -O $PT_DOWNLOAD_URL && unzip ProfitTrailer.zip 
 ADD run.sh /run.sh
 
-CMD /run.sh
+CMD /run2.sh
 
 EXPOSE 8081
