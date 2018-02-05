@@ -10,6 +10,6 @@ ENV PT_DOWNLOAD_URL=https://github.com/taniman/profit-trailer/releases/download/
 RUN cd /opt && curl -L -O $PT_DOWNLOAD_URL && unzip ProfitTrailer.zip 
 ADD run.sh /run.sh
 
-CMD /run2.sh
+CMD /run.sh
 
 EXPOSE 8081
